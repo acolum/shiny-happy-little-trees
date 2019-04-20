@@ -132,7 +132,7 @@ ui <- fluidPage(
              h4("My session information:"), verbatimTextOutput("sessionInfo")),
     tabPanel("Contact", icon = icon("smile-o"),
              h3("Any bugs/issues?"),
-                h4(tags$ul(tags$li(a("Please email me your concerns.", href = "mailto:acolumbusonl@gmail.com", target = "_blank")))),
+                h4(tags$ul(tags$li(a("Please email me your concerns.", href = "mailto:hello@alyssacolumbus.com", target = "_blank")))),
              h3("Want to connect?"),
                 h4(tags$ul(tags$li("Follow me on", a("GitHub.", href = "https://github.com/acolum", target = "_blank")),
                         tags$li(a("Tweet Me.", href = "https://twitter.com/alycolumbus", target = "_blank")))),
